@@ -1,0 +1,17 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boximg{
+    background-image: url("src/parallax.jpg");
+  
+    height: 260px;
+      
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+}
